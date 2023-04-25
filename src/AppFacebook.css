@@ -1,0 +1,35 @@
+.container-facebook {
+  text-align: center;
+}
+.title {
+  color: royalblue;
+}
+.container-facebook div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container-facebook div input {
+  padding: 7px 10px;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+
+.container-facebook div input:focus {
+  outline: none;
+}
+
+.inputSesion {
+  background: royalblue;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.error {
+  color: red;
+}

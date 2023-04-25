@@ -1,0 +1,56 @@
+.conatiner-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.title {
+  background: greenyellow;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+}
+
+.inputSubmit {
+  margin-bottom: 30px;
+}
+
+.error {
+  color: red;
+}
+
+.section-user {
+  width: 300px;
+  text-align: center;
+  background: blueviolet;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section-user img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.section-user h2 {
+  margin: 0;
+  padding: 20px 0px;
+}

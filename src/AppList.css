@@ -1,0 +1,59 @@
+.container-crear-instrumento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-crear-instrumento form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: darkseagreen;
+  padding: 15px;
+  align-items: center;
+  width: 400px;
+  border-radius: 15px;
+}
+
+.container-crear-instrumento form label input {
+  margin-left: 10px;
+  padding: 7px 10px;
+  outline: none;
+  border: 1px gray solid;
+  border-radius: 7px;
+}
+
+.input-enviar {
+  width: 100px;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 1px gray solid;
+}
+.error {
+  color: red;
+}
+.container-list-instrument {
+  width: 100%;
+  text-align: center;
+}
+
+.instruments {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.instrument {
+  background: slateblue;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.instrument img {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+}
